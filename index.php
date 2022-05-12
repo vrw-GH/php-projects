@@ -1,3 +1,12 @@
+<html>
+
+<head>
+   <!- head elements (Meta, title, etc) -->
+
+      <!-- Link your php/css file -->
+      <link rel="stylesheet" href="style.php" media="screen">
+</head>
+
 <?php  
 
 	$version = apache_get_version();
@@ -9,12 +18,12 @@
 //	header("Refresh:10; url=https://www.websparrow.org");
 
  	echo "<h1>my Web Server @ $server $port </h1>";
-	echo 'This site is running '."$version";
+	echo "<h4>This site is running $version ";
 	echo "<br>";
-	echo '<a href="/index.html">Apache Test Page</a>';
+	echo '<a href="/index.html">Apache Test Page</a> ';
 	echo "<br>";
 //	echo "PHP version    : $phpVersion </br>"; 
-	echo '<a href="/info.php">PHP Info</a>';
+	echo '<a href="/info.php">PHP Info</a> </h4>';
 	echo "<br>";
 	echo "<br>";
 	echo '<a href="/phpmyadmin">PHPMyAdmin</a>';
@@ -35,5 +44,6 @@
 	echo "<br>";
 	echo '<a href="https://getcomposer.org/doc/00-intro.md" target="_blank">composer.org/docs</a>';
 	echo "<br>";
- 
- ?>
+  ?>
+
+</html>

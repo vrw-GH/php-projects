@@ -31,3 +31,4 @@ if(file_exists($path) && is_dir($path)){
 echo '<br>';
 echo "------------ End Of List ------------".'<br>'.'<br>'.'<br>'.'<br>';
 //todo echo '<a href="/projects">List Projects Directory</a>';  cant overide index.php
+echo '<a href="/"> Home </a>';
