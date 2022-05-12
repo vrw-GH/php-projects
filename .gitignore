@@ -32,3 +32,4 @@ yarn-error.log*
 .env
 tsconfig.json
 
+phpMyAdmin
