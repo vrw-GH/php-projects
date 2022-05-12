@@ -20,7 +20,7 @@
 	echo '<a href="/phpmyadmin">PHPMyAdmin</a>';
 	echo "<br>";
 	echo "<br>";
-	echo '<a href="/projects/myprojects.php">My Projects</a>';
+	echo '<a href="/projects/index.php">My Projects</a>';
 	echo "<hr>";
 
 	echo 'Documentation & Guides:  (opens in new windows)';
