@@ -5,6 +5,7 @@
 
       <!-- Link your php/css file -->
       <link rel="stylesheet" href="style.php" media="screen">
+      <link rel="icon" href="/resources/favicon-apache.png" type="image/x-icon">
 </head>
 
 <?php  
@@ -18,18 +19,16 @@
 //	header("Refresh:10; url=https://www.websparrow.org");
 
  	echo "<h1>my Web Server @ $server $port </h1>";
-	echo "<h4>This site is running $version ";
-	echo "<br>";
-	echo '<a href="/index.html">Apache Test Page</a> ';
-	echo "<br>";
-//	echo "PHP version    : $phpVersion </br>"; 
-	echo '<a href="/info.php">PHP Info</a> </h4>';
+	echo "<h4>This site is running $version </h4>";
 	echo "<br>";
 	echo "<br>";
-	echo '<a href="/phpmyadmin">PHPMyAdmin</a>';
+	echo '<h4><a href="/projects/index.php">My Projects</a>';
 	echo "<br>";
 	echo "<br>";
-	echo '<a href="/projects/index.php">My Projects</a>';
+	echo "<br>";
+	echo '<a href="/phpmyadmin">PHPMyAdmin</a></h4>';
+	echo "<br>";
+	echo "<br>";
 	echo "<hr>";
 
 	echo 'Documentation & Guides:  (opens in new windows)';
@@ -44,6 +43,13 @@
 	echo "<br>";
 	echo '<a href="https://getcomposer.org/doc/00-intro.md" target="_blank">composer.org/docs</a>';
 	echo "<br>";
+
+	echo '<h4> <a href="/index.html">Apache Test Page</a> ';
+	echo "<br>";
+//	echo "PHP version    : $phpVersion </br>"; 
+	echo '<a href="/info.php">PHP Info</a> </h4>';
+	echo "<br>";
+	
   ?>
 
 </html>

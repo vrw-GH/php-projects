@@ -1,3 +1,12 @@
+<html>
+
+<head>
+   <!- head elements (Meta, title, etc) -->
+      <!-- Link your php/css file -->
+      <!-- <link rel="stylesheet" href="style.php" media="screen"> -->
+      <link rel="icon" href="../resources/favicon-apache.png" type="image/x-icon">
+</head>
+
 <?php
 echo '<h1> My Projects </h1> ';
 echo "<hr>";
@@ -32,3 +41,7 @@ echo '<br>';
 echo "------------ End Of List ------------".'<br>'.'<br>'.'<br>'.'<br>';
 //todo echo '<a href="/projects">List Projects Directory</a>';  cant overide index.php
 echo '<a href="/"> Home </a>';
+
+?>
+
+</html>
