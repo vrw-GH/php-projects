@@ -26,7 +26,7 @@
 	echo "<br>";
 	echo "<br>";
 	echo "<br>";
-	echo '<a href="/phpmyadmin">PHPMyAdmin</a></h4>';
+	echo '<a href="/phpmyadmin" target="_blank">PHPMyAdmin</a></h4>';
 	echo "<br>";
 	echo "<br>";
 	echo "<hr>";

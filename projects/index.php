@@ -23,8 +23,6 @@ if(file_exists($path) && is_dir($path)){
       foreach($files as $file){
          if(!is_file("$path/$file")){
             // Display Project link            
-            // $a_link = '<a href="/projects/'.$file.'"> '.$file.' </a>';
-            // echo $a_link;
             echo '<a href="/projects/'.$file.'"> '.$file.' </a>';
             echo '<br>';
          } else {
@@ -39,9 +37,8 @@ if(file_exists($path) && is_dir($path)){
 }
 echo '<br>';
 echo "------------ End Of List ------------".'<br>'.'<br>'.'<br>'.'<br>';
-//todo echo '<a href="/projects">List Projects Directory</a>';  cant overide index.php
+//todo echo '<a href="/projects">List Projects Directory</a>';  // cant overide index.php!!!
 echo '<a href="/"> Back (Local Server) </a>';
-
 ?>
 
 </html>
