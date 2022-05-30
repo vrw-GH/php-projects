@@ -6,6 +6,11 @@ $font_size = '0.7em';
 $border = '1px solid';
 ?>
 
+* {
+display: flexbox;
+text-align: center;
+}
+
 h1 {
 display: flexbox;
 text-align: center;
